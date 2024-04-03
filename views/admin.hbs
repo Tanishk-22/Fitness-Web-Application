@@ -1,0 +1,12 @@
+<main id="adminpage">
+    <h1>Welcome to Admin Page</h1>
+    {{#each paylist}}
+    <div>
+        <p>Username: {{this.username}}</p>
+        <p>Class name: {{this.className}}</p>
+        <p>Price before tax:${{this.pricebefore}}</p>
+        <p>Total amount paid:${{this.total}}</p>
+        <p>date of payment:{{this.date}}</p>
+    </div>
+    {{/each}}
+</main>

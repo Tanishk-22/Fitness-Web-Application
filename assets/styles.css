@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C3073f;
+    border-bottom: #C3073f solid;
+    font-size: 15px;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul>li {
+    display: flex;
+}
+
+ul>li>a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main#loginpage {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#loginpage>form>input {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    display: block;
+}
+
+#loginpage>form>button {
+    color: white;
+    border: 1px solid #C3073f;
+    border-radius: 5px;
+    background-color: #C3073f;
+    margin-top: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+main#classespage {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#classespage>section>div {
+    text-align: right;
+}
+
+#classespage>section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#classespage>section>div>form>button {
+    color: white;
+    border: 1px solid #C3073f;
+    border-radius: 5px;
+    background-color: #C3073f;
+    margin-top: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+main#cartpage {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cartpage>section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+main#adminpage {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#adminpage>div {
+    text-align: left;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
